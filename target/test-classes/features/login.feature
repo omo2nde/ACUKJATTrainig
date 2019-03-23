@@ -7,6 +7,7 @@ Feature: Login Profile
   Background: User navigates to Company home page
     Given I am on the "Company home" page on URL "www.mycompany.com"
     Then I should see "Log In as Employee" message
+    
   Scenario: Successful login
     When I fill in "Username" i should not login
     And I fill in "Password" with "123"
