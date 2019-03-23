@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76be8f64-c5a0-46c2-a8a5-7e8aabd591b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,6 +49,15 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/features/login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinition/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -111,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+        <option value="$PROJECT_DIR$/target/test-classes/features/login.feature" />
       </list>
     </option>
   </component>
@@ -150,7 +151,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="32" />
     <option name="y" value="22" />
     <option name="width" value="1346" />
@@ -162,110 +163,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
+              <item name="ACUKJATTrainig-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACUKJATTrainig-" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ACUKJATTrainig-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACUKJATTrainig-" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ACUKJATTrainig-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACUKJATTrainig-" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ACUKJATTrainig-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACUKJATTrainig-" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-html-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACUKJATTrainig" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACUKJATTrainig" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553184330498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553365765006" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -323,8 +255,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: User navigates to Company home page" />
       <item itemvalue="Cucumber java.login" />
+      <item itemvalue="Cucumber java.Scenario: User navigates to Company home page" />
     </list>
     <recent_temporary>
       <list>
@@ -358,8 +290,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="22" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3919129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39813375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -373,7 +306,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
@@ -450,16 +383,6 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/overview-tags.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/report-feature_login-feature.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -476,6 +399,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports/advanced-reports/cucumber-html-reports/report-feature_login-feature.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
