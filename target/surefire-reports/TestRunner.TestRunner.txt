@@ -1,4 +1,27 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.078 s - in TestRunner.TestRunner
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.303 s <<< FAILURE! - in TestRunner.TestRunner
+feature(TestRunner.TestRunner)  Time elapsed: 22.666 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 299 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'wale-pc', ip: '192.168.15.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=session not created: This version of ChromeDriver only supports Chrome version 74
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64), platform=ANY}]
+Session ID: b01212e70359ce2f9156883c08a7ff0b
+	at TestRunner.TestRunner.feature(TestRunner.java:31)
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 299 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'wale-pc', ip: '192.168.15.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=session not created: This version of ChromeDriver only supports Chrome version 74
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64), platform=ANY}]
+Session ID: b01212e70359ce2f9156883c08a7ff0b
+

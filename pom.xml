@@ -7,9 +7,14 @@
     <groupId>ACUK-JAT-Training</groupId>
     <artifactId>ACUK-JAT-Training</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>ACUKJATTraining1</name>  <!-- Replace with project name -->
+    <name>ACUKJATTraining-</name>  <!-- Replace with project name -->
 
     <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.0.1</version>
+        </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
