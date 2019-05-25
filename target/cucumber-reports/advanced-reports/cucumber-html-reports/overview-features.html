@@ -51,7 +51,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                4,
+                6,
                 0,
                 0,
                 0,
@@ -94,7 +94,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 4) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,7 +107,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                1,
+                2,
                 0
             ],
             backgroundColor: [
@@ -144,7 +144,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 2) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -232,9 +232,9 @@ $(document).ready(function() {
   </thead>
   <tbody>
     <tr class="info">
-      <td>ACUKJATTraining-</td>
+      <td>ACUKJATTrainingOne</td>
               <td>1</td>
-            <td>30 Mar 2019, 19:29</td>
+            <td>25 May 2019, 18:06</td>
     </tr>
   </tbody>
 </table>
@@ -329,20 +329,20 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-feature_search-feature.html">Google Search</a></td>
+        <td class="tagname"><a href="report-feature_google_search-feature.html">Google Search</a></td>
         
-        <td      class="passed"    >4</td>
+        <td      class="passed"    >6</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">4</td>
+        <td class="total">6</td>
 
-        <td  class="passed"    >1</td>
+        <td  class="passed"    >2</td>
         <td >0</td>
-        <td class="total">1</td>
+        <td class="total">2</td>
 
-        <td class="duration" data-value="519062833">519ms</td>
+        <td class="duration" data-value="32748979620">32s 748ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
@@ -350,18 +350,18 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td>1</td>
-            <td>4</td>
+            <td>6</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>4</td>
+      <td>6</td>
 
-      <td>1</td>
+      <td>2</td>
       <td>0</td>
-      <td>1</td>
+      <td>2</td>
 
-      <td class="duration">519ms</td>
+      <td class="duration">32s 748ms</td>
       <td></td>
     </tr>
     <tr>

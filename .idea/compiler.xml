@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ACUK-JAT-Training" />
-        <module name="ACUKJATTrainig" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ACUK-JAT-Training" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
