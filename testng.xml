@@ -2,9 +2,9 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="ACUKJATTraining" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+<suite name="ACUKJATTestingOne" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
 
-    <test name="Login and Update Profile Test" annotations="JDK" preserve-order="true">
+    <test name="Login" annotations="JDK" preserve-order="true">
 
         <classes>
 

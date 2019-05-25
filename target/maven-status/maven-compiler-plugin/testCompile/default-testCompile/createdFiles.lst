@@ -1,3 +1,2 @@
-stepdefinition\Search.class
-stepdefinition\LoginSteps.class
+stepdefinitions\GoogleSearch.class
 TestRunner\TestRunner.class

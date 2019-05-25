@@ -1,64 +1,118 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 6,
-        "name": "Search for an item",
+        "line": 7,
+        "name": "Search result page contains search query",
         "description": "",
-        "id": "google-search;search-for-an-item",
+        "id": "google-search;search-result-page-contains-search-query",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 22390130275,
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 299 milliseconds\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027wale-pc\u0027, ip: \u0027192.168.15.223\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{message\u003dsession not created: This version of ChromeDriver only supports Chrome version 74\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64), platform\u003dANY}]\nSession ID: b01212e70359ce2f9156883c08a7ff0b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)\r\n\tat stepdefinition.Search.i_am_on_Google_Search_Page(Search.java:16)\r\n\tat ✽.Given I am on Google Search Page(search.feature:7)\r\n",
-              "status": "failed"
+              "duration": 8146453168,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "I am on Google Search Page",
+            "line": 8,
+            "name": "I am on google search page",
             "match": {
-              "location": "Search.i_am_on_Google_Search_Page()"
+              "location": "GoogleSearch.i_am_on_google_search_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2987129625,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "i enter a search term \"Ahmid\"",
+            "line": 9,
+            "name": "I search for \"Cucumber\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Ahmid",
-                  "offset": 23
+                  "val": "Cucumber",
+                  "offset": 14
                 }
               ],
-              "location": "Search.i_enter_a_search_term(String)"
+              "location": "GoogleSearch.i_search_for(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1033227772,
+              "status": "passed"
             },
-            "line": 9,
-            "name": "I click on the search button",
+            "line": 10,
+            "name": "the page title should contain \"cucumber\"",
             "match": {
-              "location": "Search.i_click_on_the_search_button()"
+              "arguments": [
+                {
+                  "val": "cucumber",
+                  "offset": 31
+                }
+              ],
+              "location": "GoogleSearch.the_first_line_on_the_result_page_should_contain(String)"
             },
-            "keyword": "And "
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Google first result description contains searched query",
+        "description": "",
+        "id": "google-search;google-first-result-description-contains-searched-query",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5825211595,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on google search page",
+            "match": {
+              "location": "GoogleSearch.i_am_on_google_search_page()"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2507911696,
+              "status": "passed"
             },
-            "line": 10,
-            "name": "I should be shown a list of results relating to my search term",
+            "line": 14,
+            "name": "I search for \"Java\"",
             "match": {
-              "location": "Search.i_should_be_shown_a_list_of_results_relating_to_my_search_term()"
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 14
+                }
+              ],
+              "location": "GoogleSearch.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000119330,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the first line on the result page should contain \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 50
+                }
+              ],
+              "location": "GoogleSearch.theFirstLineOnTheResultPageShouldContain(String)"
             },
             "keyword": "Then "
           }
@@ -66,9 +120,19 @@
       }
     ],
     "name": "Google Search",
-    "description": "As a google search user\r\nI want to search for information I need\r\nSo that Iam better informed",
+    "description": "As a web user\nI want to find information on google\nSo that I get a better understanding of the topic",
     "id": "google-search",
     "keyword": "Feature",
-    "uri": "search.feature"
+    "uri": "google_search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GoogleSearch"
+      },
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
   }
 ]
